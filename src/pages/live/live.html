@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>流测试</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item [navPush]="'VideoRtmpPage'">
+        rtmp直播流
+    </ion-item>
+    <ion-item [navPush]="'VideoHlsPage'">
+        hls直播流
+    </ion-item>
+    <ion-item [navPush]="'VideoVodPage'">
+        rtmp点播流
+    </ion-item>
+    <ion-item [navPush]="'VideoHttpPage'">
+        普通流
+    </ion-item>
+  </ion-list>
+
+</ion-content>
